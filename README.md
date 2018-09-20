@@ -16,6 +16,18 @@ We linked the various parts of our project in one shell script "run.sh". This sc
 
 It will save a file called graph.dot.png to the same directory where you ran the script which contains a visual representation of the pages visted. 
 
+## Files: 
+
+### Makefile
+
+### crawl.py
+
+### output1, output3, output5
+
+### philo.cpp
+
+### run.sh
+
 ### Members
 Abby Lane (alane3, Section 01)
 
