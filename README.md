@@ -19,14 +19,19 @@ It will save a file called graph.dot.png to the same directory where you ran the
 ## Files: 
 
 ### Makefile
+Compiles philo.cpp and tests program against sample plain text output. 
 
 ### crawl.py
+Uses Python request capabilities to get code from user requested Wikipedia page. Parses HTML for first link and opens link. Recrusively opens links on each consecutive page until a loop is reached in pages (one page is leading to the same cycle of page openings) 
 
 ### output1, output3, output5
+Expected output of program for set keywords to crawl. 
 
 ### philo.cpp
+Takes in output from crawl.py and pushes traversed pages into a map, where the key is the word and the value is its list of neighbors. Outputs the correct formatted list to a "graph.dot" file so that a visual graphic may be created.  
 
 ### run.sh
+Combines Python and C++ progams, and creates a png from .dot file. 
 
 ### Members
 Abby Lane (alane3, Section 01)
